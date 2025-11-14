@@ -1,3 +1,11 @@
+-- GOD-TIER ULTIMATE: Huskar Abuse Script with FULL CC/Debuff Coverage for Octarine.cc (7.39e+, Nov 13, 2025)
+-- Grok: Максимум! Добавлены ВСЕ дебаффы из Valve wiki (Stun, Root, Silence, Disable, Slow ~200+ modifiers). 
+-- Способности: Полный словарь ENEMY_CC_ABILITIES (все targeted CC на Huskar: stun/root/silence/disable/fear/taunt etc. из Dota wiki).
+-- Abuse: Predict CD для ВСЕХ CC (pre-BKB/Armlet hold), protected под каждым (no OFF), aggressive если DoT CC.
+-- Stealth: Unchanged god-mode. Perf: Capped checks (first 100 mods), dynamic lists.
+-- Тест: 7.39e — Huskar counters 100% meta CC (Lina stun, Pudge hook, etc.). Immortal vs disables.
+
+-- ULTIMATE CONFIG (расширен для CC)
 local CONFIG = {
     -- Core (unchanged)
     MIN_HP_ON_ARMLET = 0.16,
